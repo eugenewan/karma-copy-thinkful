@@ -1,1 +1,66 @@
-style.css
+/* setting up temporary dev environment, delete after web is complete */
+body {
+  background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
+}
+
+/* typographic choices */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+}
+
+/* box sizing */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.top-navigation {
+  background-color: #FFFFFF;
+}
+
+.top-navigation .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
+
+.top-navigation .logo {
+  margin: 14px 0px 0px 0px;
+}
+
+.top-navigation .links {
+  float: right;
+  margin-top: 25px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0em 1.5em 0em 0em;
+}
+
+.links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.links a {
+  text-decoration: none;
+  color: #838994;
+}
+
+.links li:hover {
+  cursor: pointer;
+  color: #4c5058;
+}
+
